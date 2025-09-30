@@ -1,0 +1,263 @@
+# Site settings
+title: "Masum Billal - AI/ML Engineer & Researcher"
+description: "Personal portfolio website showcasing AI/ML projects, research publications, and technical expertise in Deep Learning, NLP, and Blockchain Technologies."
+author: "Masum Billal"
+email: "billalmasum342@gmail.com"
+url: "https://yourusername.github.io"  # Replace with your actual GitHub Pages URL
+baseurl: "/repository-name"  # Replace with your repository name
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO settings
+seo:
+  type: "Person"
+  name: "Masum Billal"
+  description: "AI/ML Engineer & Researcher specializing in Deep Learning, NLP, and Blockchain Technologies"
+  url: "https://yourusername.github.io"
+  image: "/assets/images/profile.jpg"
+  sameAs:
+    - "https://linkedin.com/in/billalmasum342"
+    - "https://github.com/yourusername"
+
+# Social media
+social:
+  name: Masum Billal
+  links:
+    - "https://linkedin.com/in/billalmasum342"
+    - "mailto:billalmasum342@gmail.com"
+
+# Navigation
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/#about"
+  - title: "Projects"
+    url: "/#projects"
+  - title: "Research"
+    url: "/#research"
+  - title: "Contact"
+    url: "/#contact"
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+  research:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+      type: "research"
+    values:
+      layout: "research"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - LICENSE
+  - .gitignore
+  - .sass-cache/
+  - .jekyll-cache/
+  - .jekyll-metadata
+  - _site/
+  - .git/
+  - .DS_Store
+  - Thumbs.db
+
+# Include files
+include:
+  - _pages
+  - _projects
+  - _research
+
+# Sass settings
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Timezone
+timezone: Asia/Shanghai
+
+# Encoding
+encoding: utf-8
+
+# Future posts
+future: false
+
+# Show drafts
+show_drafts: false
+
+# Limit posts
+limit_posts: 0
+
+# Keep files
+keep_files:
+  - .git
+  - .svn
+
+# Safe mode
+safe: false
+
+# Source directory
+source: .
+
+# Destination directory
+destination: _site
+
+# Incremental build
+incremental: false
+
+# Watch mode
+watch: false
+
+# Serve options
+serve:
+  port: 4000
+  host: localhost
+  baseurl: ""
+  show_dir_listing: false
+
+# Build options
+build:
+  destination: _site
+  incremental: false
+  watch: false
+  future: false
+  unpublished: false
+  limit_posts: 0
+  show_drafts: false
+  safe: false
+  plugins_dir: _plugins
+  layouts_dir: _layouts
+  data_dir: _data
+  includes_dir: _includes
+  collections_dir: _collections
+  source: .
+  destination: _site
+  cache_dir: .jekyll-cache
+  gems: []
+  plugins: []
+  markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+  textile_ext: "textile"
+  permalink: date
+  relative_permalinks: false
+  timezone: null
+  quiet: false
+  verbose: false
+  liquid:
+    error_mode: warn
+    strict_filters: false
+    strict_variables: false
+  markdown: kramdown
+  highlighter: rouge
+  lsi: false
+  excerpt_separator: "\n\n"
+  incremental: false
+  detach: false
+  port: 4000
+  host: 127.0.0.1
+  baseurl: ""
+  show_dir_listing: false
+  skip_initial_build: false
+  livereload: false
+  livereload_ignore: []
+  livereload_min_delay: 0.1
+  livereload_max_delay: 0.5
+  open_url: false
+  config: []
+  drafts: false
+  future: false
+  unpublished: false
+  disable_disk_cache: false
+  full_rebuild: false
+  profile: false
+  strict_front_matter: false
+  safe: false
+  trace: false
+  whitelist: []
+  plugins_dir: _plugins
+  layouts_dir: _layouts
+  data_dir: _data
+  includes_dir: _includes
+  collections_dir: _collections
+  source: .
+  destination: _site
+  cache_dir: .jekyll-cache
+  gems: []
+  plugins: []
+  markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+  textile_ext: "textile"
+  permalink: date
+  relative_permalinks: false
+  timezone: null
+  quiet: false
+  verbose: false
+  liquid:
+    error_mode: warn
+    strict_filters: false
+    strict_variables: false
+  markdown: kramdown
+  highlighter: rouge
+  lsi: false
+  excerpt_separator: "\n\n"
+  incremental: false
+  detach: false
+  port: 4000
+  host: 127.0.0.1
+  baseurl: ""
+  show_dir_listing: false
+  skip_initial_build: false
+  livereload: false
+  livereload_ignore: []
+  livereload_min_delay: 0.1
+  livereload_max_delay: 0.5
+  open_url: false
+  config: []
+  drafts: false
+  future: false
+  unpublished: false
+  disable_disk_cache: false
+  full_rebuild: false
+  profile: false
+  strict_front_matter: false
+  safe: false
+  trace: false
+  whitelist: []
